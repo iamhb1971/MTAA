@@ -54,15 +54,14 @@ def GetATSFilesOnPathMSN(dir2walkthru, msn):
 
 if __name__ == '__main__':
     
-    #dir2walkthru=r'g:\\data\\ammonite\\'
-    #dir2walkthru=r'C:\\Users\\307984\\Downloads\\TAASng\\Atp _MTAA\\T07\\Eblock A\\Eblock A Diskpack 1  Good Stacker B\\'
+    #dir2walkthru=r'g:\\data\\ammonite\\'    #dir2walkthru=r'C:\\Users\\307984\\Downloads\\TAASng\\Atp _MTAA\\T07\\Eblock A\\Eblock A Diskpack 1  Good Stacker B\\'
     #dir2walkthru=r'C:\\Users\\307984\\Documents\\manual\\T1_raw\\test\\'
     #dir2walkthru=r'C:\\Users\\307984\\Downloads\\MX350\\'
-    #dir2walkthru=r'R:\\data\\Multi_TAA\\auto\\'
-    dir2walkthru=r'C:\\Users\\307984\\Downloads\\MX350\\Multi_TAA\\auto\\T15_raw\\'
+    dir2walkthru=r'R:\\data\\Multi_TAA\\auto\\'
+    #dir2walkthru=r'C:\\Users\\307984\\Downloads\\MX350\\Multi_TAA\\auto\\T15_raw\\'
 
 
-    ##resultFilelist= GetATSFilesOnPathMSN(dir2walkthru,'csv')
+
     resultFilelist= GetFilesOnPathOneMDW(dir2walkthru,'csv','csv',1)
 
     for item in resultFilelist:
