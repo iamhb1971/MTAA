@@ -15,8 +15,6 @@ import logging,sys
 import shutil
 
 
-
-
 def GetFilesOnPathOneMDW(dir2walkthruLocal, str1,str2,ageLimit):
     resultFilelist1=[]
     timeNow=time.time()
